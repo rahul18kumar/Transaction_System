@@ -1,0 +1,30 @@
+# === Environment & Secrets ===
+.env
+.env.local
+.env.*.local
+
+# === Dependencies ===
+node_modules/
+jspm_packages/
+venv/
+env/
+__pycache__/
+target/
+build/
+dist/
+
+# === Database & Local Storage ===
+*.db
+*.sqlite
+*.sqlite3
+data/
+*.log
+logs/
+
+# === IDE & Editor Files ===
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
